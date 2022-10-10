@@ -1,0 +1,30 @@
+.notification {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 35px;
+    background: rgba(0, 0, 0, 0.915);
+    color: aliceblue;
+    border: 2px solid rgb(20, 48, 71);
+    font-size: 24px;
+}
+
+.notification__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    background: linear-gradient(45deg, #a8edea, #fed6e3);
+    color: rgb(0, 0, 0);
+    max-width: 800px;
+    max-height: 800px;
+    border-radius: 25% 75% 38% 62% / 30% 24% 76% 70% ;
+}
+
+.notification__name {
+    margin-bottom: 20px;
+}
